@@ -28,9 +28,11 @@ headers = {
 def link_counts():
     url = "https://api.rebrandly.com/v1/links/count"
 
+
+
     headers = {
         "Accept": "application/json",
-        "workspace": "your workspac",
+        "workspace": "your workspace",
         "apikey": "your apikey"
     }
 
